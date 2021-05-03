@@ -1,0 +1,123 @@
+* , html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family:  'Lexend Deca', sans-serif;
+}
+.image-375 {
+    display: none;
+}
+.image-1440 {
+    width: 540px;
+    height: 445px;
+    border-radius: 0 8px 8px 0;
+}
+
+            /* Wrapper */
+
+.wrapper {
+    position: relative;
+    max-width:1110px;
+    height: 445px;
+    margin: 0 auto;
+    margin-top: 170px;
+    border-radius: 8px;
+    background: hsl(244, 38%, 16%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+            /* Left */
+
+.left {
+    margin-top: 75px;
+    margin-left: 70px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}            
+
+            /* Right */
+
+.right {
+    position: absolute;
+    right: 0px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+} 
+
+            /* Header */
+
+.header {
+    margin-bottom: 40px;
+}
+
+            /* Paragraph */
+
+.paragraph {
+    margin-bottom: 80px;
+}
+
+            /* Insights Word Color */
+
+.header span {
+    color: hsl(277, 64%, 61%);
+}         
+
+            /* Stats-Top */
+
+.stat-top span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}  
+    .stat-top span:not(:last-child){
+        margin-right:90px ;
+    }            
+
+            /* Stats-Bottom */
+
+.stat-bottom {
+    font-family:  'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+}            
+    .stat-bottom span:not(:last-child) {
+        margin-right: 57px;
+    }
+        .stat-bottom span:last-child {
+            margin-left: -6px;
+        }       
+
+                    /* Deactive For Headeing 2 */        
+        
+.header-375{
+    display: none;
+}                    
+
+                    /* Deactive For Paragraph 2 */   
+
+.paragraph-375{
+    display: none;
+}                    
+
+                    /* Meida Queries */
+
