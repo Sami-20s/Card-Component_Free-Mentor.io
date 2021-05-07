@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component
 
-(./design/desktop-preview.jpg)
+!(./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
